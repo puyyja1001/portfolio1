@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Home page</title>
+	<style>
+		nav{
+			background: brown;
+			height: 80px;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			margin: 0;
+			z-index: 1;
+		}
+		nav img{
+			width: 80px;
+			float: left;
+			border-radius: 100px;
+			padding: 10px;
+		}
+		nav ul{
+			float: right;
+			margin-top: 30px;
+		}
+		nav ul li{
+			display: inline;
+			color: #fff;
+			font-size: 25px;
+			margin-right: 25px;
+			font-weight: bold;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+		a:hover{
+			color: yellow;
+		}
+		#bt{
+			background: #fff;
+			color: #000;
+			border:2px solid #000 ;
+			padding: 3px;
+			border-radius: 10px;
+		}
+		.container{
+			margin-top: 40px;
+			padding: 70px;
+
+		}
+		#left{
+			width: 50%;
+			float: left;
+			background-color: #91d1bf;
+			opacity: 0.8;
+			padding: 10px;
+
+
+		}
+		#right{
+			width: 50%;
+			margin-left: 800px;
+			
+		}
+		
+		#rimg{
+
+			width:350px;
+		
+			border-radius: 110px;
+			margin-top: 50px;
+
+
+        }
+        #left h1{
+        	font-size: 40px;
+        	font-weight: normal;
+        	line-height: 50px;
+        	color: #C45;
+
+        }
+        #left p{
+        	font-size: 25px;
+        	
+        	color: red;
+        }
+        .con{
+        	display: flex;
+        	justify-content: space-between;
+        	margin-top: 50px;
+        }
+        
+        .con div img{
+        	width: 180px;
+        	height: 200px;
+        	border: double black;
+        	margin-left: 100px;
+        	
+
+        	
+        }
+        .categories_item {
+		flex-grow: 1;
+	}
+	</style>
+</head>
+<body>
+	
+		<nav>
+			<header>
+			<img src="images/taj.webp"/>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Product	</a></li>
+		<li><a href="#">About us</a></li>
+		<li><a id="bt" href="#">Login</a></li>
+	</ul>
+</nav>
+</header>
+<div class="container">
+	<div id="left">
+		<p>sample paper sample paper sample paper sample paper</p>
+		<h1>sample paper sample paper sample paper sample paper sample paper sample paper</h1>
+		<p>sample papersample papersample papersample papersample papersample papersample papersample papersample papersample papersample paper</p>
+
+	</div>
+	<div id="right">
+		<img src="images/taj.webp" id="rimg">
+		
+	</div>
+</div>
+<div class="con">
+
+		<div id="row">
+
+	<div class="categories_item">
+		
+		<img src="images/pic9.jpg"/>
+
+		<img src="images/pic10.jpg"/>
+
+		<img src="images/pic12.jpg"/>
+
+	</div>
+
+	<div id="row">
+
+	<div class="categories_item">
+
+		<img src="images/pic13.jpg"/>
+
+		<img src="images/pic14.jpg"/>
+
+		<img src="images/pic15.jpg"/>
+
+	</div>
+
+		<div id="row">
+
+	<div class="categories_item">
+		
+		<img src="images/pic9.jpg"/>
+
+		<img src="images/pic10.jpg"/>
+
+		<img src="images/pic12.jpg"/>
+		
+	</div>
+</div>
+
+
+
+	<div class="footer"></div>
+</div>
+	
+</body>
+
+
+</html>
